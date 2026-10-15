@@ -1,5 +1,5 @@
 // Cambia VERSION cada vez que subas cambios, así el celular baja la nueva versión
-const VERSION = "libreta-v1";
+const VERSION = "libreta-v2";
 const FILES = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png"];
 
 self.addEventListener("install", e => {
