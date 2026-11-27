@@ -1,6 +1,6 @@
 // Cambia VERSION cada vez que subas cambios, así el celular baja la nueva versión
-const VERSION = "libreta-v2";
-const FILES = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png"];
+const VERSION = "libreta-v3";
+const FILES = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png","./fonts/manrope-latin-400-normal.woff2","./fonts/manrope-latin-600-normal.woff2","./fonts/manrope-latin-800-normal.woff2"];
 
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));
